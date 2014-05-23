@@ -1,7 +1,7 @@
 #!/bin/bash
 #  GVL-BPA-setup.sh
 #  
-#  Copyright 2014 Simon <simon@hyperion>
+#  Copyright 2014 Simon Gladman <simon.gladman@monash.edu>
 #  
 #   A shell script to run the setup for BPA tutorials on the GVL platform.
 #   You'll need at least a medium instance of the GVL image.
