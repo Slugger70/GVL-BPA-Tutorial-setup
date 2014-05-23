@@ -25,7 +25,7 @@
 
 echo "Getting GVL command line utilities."
 
-git clone https://github.com/claresloggett/gvl_commandline_utilities.git
+git clone https://github.com/claresloggett/gvl_commandline_utilities.git -b move-home-dirs
 
 if [ "$?" -ne "0" ]; then
     echo "Git clone of GVL command line utilities failed."
@@ -47,7 +47,7 @@ echo "Getting the BPA tutorial deployment script"
 
 cd
 
-wget "https://github.com/nathanhaigh/ngs_workshop/raw/master/workshop_deployment/NGS_workshop_deployment.sh"
+wget "https://github.com/Slugger70/ngs_workshop/raw/master/workshop_deployment/NGS_workshop_deployment.sh"
 
 if [ "$?" -ne "0" ]; then
     echo "Download of BPA setup script failed."
