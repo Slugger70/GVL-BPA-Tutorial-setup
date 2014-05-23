@@ -45,6 +45,8 @@ fi
 
 echo "Getting the BPA tutorial deployment script"
 
+cd
+
 wget "https://github.com/nathanhaigh/ngs_workshop/raw/master/workshop_deployment/NGS_workshop_deployment.sh"
 
 if [ "$?" -ne "0" ]; then
